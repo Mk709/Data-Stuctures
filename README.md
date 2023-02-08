@@ -30,6 +30,6 @@ Programming Language Used For Implementation : JAVA
 
 Concepts Used: Swings,OOPS, Arrays,classes,methods.
 
-Tolls Used : Eclipse IDE.
+Tool Used : Eclipse IDE.
 
 Plugin Used: Window Builder (To create JFrames).
