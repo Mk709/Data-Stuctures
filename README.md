@@ -7,10 +7,15 @@ DATA STRUCTURES
 
 This Project Concentrates On the Implementation of Linear Data Structures Like
 a.Array
+
 b.Stack
+
 c.Queue
+
 d.Circular Queue
+
 e.Singly Linked List
+
 f.doubly Linked List
 
 In computer science, a data structure is a data organization, management, and storage format
