@@ -76,7 +76,7 @@ public class Home extends JFrame
 		System.exit(ABORT); 
 	    }
 	});
-
+	
 	JLabel com = new JLabel("PRESS HERE");
 	com.setFont(new Font("Orbitron", Font.BOLD, 12));
 	com.setForeground(Color.WHITE);
