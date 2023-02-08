@@ -76,15 +76,6 @@ public class Home extends JFrame
 		System.exit(ABORT); 
 	    }
 	});
-	
-	JButton btnNewButton = new JButton("New button");
-	btnNewButton.addActionListener(new ActionListener() {
-		public void actionPerformed(ActionEvent e) {
-		    su.play();
-		}
-	});
-	btnNewButton.setBounds(136, 526, 89, 23);
-	contentPane.add(btnNewButton);
 
 	JLabel com = new JLabel("PRESS HERE");
 	com.setFont(new Font("Orbitron", Font.BOLD, 12));
