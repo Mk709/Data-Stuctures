@@ -1,10 +1,6 @@
 # Mini-Project
 A STAND ALONE APPLICATION OF IMPLEMENTING LINEAR  DATA STRUCTURES
 
-A STAND ALONE APPLICATION OF IMPLEMENTING LINEAR
-
-DATA STRUCTURES
-
 This Project Concentrates On the Implementation of Linear Data Structures Like
 
 a.Array
