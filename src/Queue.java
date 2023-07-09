@@ -57,7 +57,7 @@ public class Queue extends JFrame
 	this.r = -1;
 	this.f = 0;
 	this.setBackground(Color.WHITE);
-	this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 	this.setBounds(100, 100, 1000, 660);
 	(this.contentPane = new JPanel()).setBackground(new Color(255, 255, 0));
 	contentPane.setBackground(new Color(255, 255, 255));
@@ -67,7 +67,7 @@ public class Queue extends JFrame
 	this.setLocationRelativeTo(null);
 
 	sizefield = new JTextField();
-	sizefield.setHorizontalAlignment(JTextField.CENTER);
+	sizefield.setHorizontalAlignment(SwingConstants.CENTER);
 	sizefield.addKeyListener(new KeyAdapter() {
 	    @Override
 	    public void keyTyped(KeyEvent e) {
@@ -116,7 +116,7 @@ public class Queue extends JFrame
 	    }
 	});
 	element.setFont(new Font("Times New Roman", Font.BOLD, 18));
-	element.setHorizontalAlignment(JTextField.CENTER);
+	element.setHorizontalAlignment(SwingConstants.CENTER);
 	this.element.setBounds(228, 154, 122, 28);;
 	this.contentPane.add(this.element);
 	final JButton insert = new JButton("INSERT");
@@ -182,7 +182,7 @@ public class Queue extends JFrame
 	this.contentPane.add(display);
 	(this.displaybox = new JTextField()).setColumns(10);
 	displaybox.setFont(new Font("Times New Roman", Font.BOLD, 18));
-	displaybox.setHorizontalAlignment(JTextField.CENTER);
+	displaybox.setHorizontalAlignment(SwingConstants.CENTER);
 	this.displaybox.setBounds(183, 462, 380, 28);
 	this.contentPane.add(this.displaybox);
 

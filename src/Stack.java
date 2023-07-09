@@ -55,7 +55,7 @@ public class Stack extends JFrame
 	m.play();
 	setUndecorated(true);
 	this.top = -1;
-	this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 	this.setBounds(100, 100, 1000, 660);
 	(this.contentPane = new JPanel()).setBackground(new Color(255, 218, 185));
 	contentPane.setBackground(new Color(255, 255, 255));
@@ -65,7 +65,7 @@ public class Stack extends JFrame
 	this.setLocationRelativeTo(null);
 
 	displaybox = new JTextField();
-	displaybox.setHorizontalAlignment(JTextField.CENTER);
+	displaybox.setHorizontalAlignment(SwingConstants.CENTER);
 	displaybox.setColumns(10);
 	displaybox.setBounds(114, 498, 390, 38);
 	contentPane.add(displaybox);
@@ -199,7 +199,7 @@ public class Stack extends JFrame
 
 	sizefield = new JTextField();
 	sizefield.setFont(new Font("Times New Roman", Font.BOLD, 16));
-	sizefield.setHorizontalAlignment(JTextField.CENTER);
+	sizefield.setHorizontalAlignment(SwingConstants.CENTER);
 	sizefield.addKeyListener(new KeyAdapter() {
 	    @Override
 	    public void keyTyped(KeyEvent e) {
@@ -215,7 +215,7 @@ public class Stack extends JFrame
 
 	element = new JTextField();
 	element.setFont(new Font("Times New Roman", Font.BOLD, 16));
-	element.setHorizontalAlignment(JTextField.CENTER);
+	element.setHorizontalAlignment(SwingConstants.CENTER);
 	element.addKeyListener(new KeyAdapter() {
 	    @Override
 	    public void keyTyped(KeyEvent e) {

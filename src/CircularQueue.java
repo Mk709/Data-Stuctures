@@ -62,7 +62,7 @@ public class CircularQueue extends JFrame
 	this.f = 0;
 	this.count = 0;
 	this.setBackground(UIManager.getColor("Button.shadow"));
-	this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 	this.setBounds(100, 100, 1000, 660);
 	(this.contentPane = new JPanel()).setBackground(new Color(255, 255, 0));
 	contentPane.setBackground(new Color(255, 255, 255));
@@ -121,7 +121,7 @@ public class CircularQueue extends JFrame
 	    }
 	});
 	this.element.setBounds(158, 387, 189, 40);
-	element.setHorizontalAlignment(JTextField.CENTER);
+	element.setHorizontalAlignment(SwingConstants.CENTER);
 	this.contentPane.add(this.element);
 	final JButton insert = new JButton("INSERT");
 	insert.addActionListener(new ActionListener() {
@@ -187,7 +187,7 @@ public class CircularQueue extends JFrame
 	this.contentPane.add(display);
 	(this.displaybox = new JTextField()).setColumns(10);
 	displaybox.setFont(new Font("Times New Roman", Font.BOLD, 18));
-	displaybox.setHorizontalAlignment(JTextField.CENTER);
+	displaybox.setHorizontalAlignment(SwingConstants.CENTER);
 	this.displaybox.setBounds(73, 524, 380, 40);
 	this.contentPane.add(this.displaybox);
 	final JButton back = new JButton("");
@@ -209,7 +209,7 @@ public class CircularQueue extends JFrame
 	this.contentPane.add(back);
 
 	sizefield = new JTextField();
-	sizefield.setHorizontalAlignment(JTextField.CENTER);
+	sizefield.setHorizontalAlignment(SwingConstants.CENTER);
 	sizefield.addKeyListener(new KeyAdapter() {
 	    @Override
 	    public void keyTyped(KeyEvent e) {
