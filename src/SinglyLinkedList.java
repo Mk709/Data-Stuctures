@@ -51,7 +51,7 @@ public class SinglyLinkedList extends JFrame
 	m.Setmusic(s);
 	m.play();
 	setUndecorated(true);
-	this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 	this.setBounds(100, 100, 1000, 660);
 	(this.contentPane = new JPanel()).setBackground(new Color(255, 0, 0));
 	contentPane.setBackground(new Color(255, 255, 255));
@@ -70,7 +70,7 @@ public class SinglyLinkedList extends JFrame
 	    }
 	});
 	element2.setFont(new Font("Microsoft New Tai Lue", Font.BOLD, 18));
-	element2.setHorizontalAlignment(JTextField.CENTER);
+	element2.setHorizontalAlignment(SwingConstants.CENTER);
 	this.element2.setBounds(211, 225, 100, 30);
 	this.contentPane.add(this.element2);
 
@@ -217,7 +217,7 @@ public class SinglyLinkedList extends JFrame
 	display.setBounds(172, 453, 150, 40);
 	this.contentPane.add(display);
 	(this.displaybox = new JTextField()).setColumns(10);
-	displaybox.setHorizontalAlignment(JTextField.CENTER);
+	displaybox.setHorizontalAlignment(SwingConstants.CENTER);
 	displaybox.setFont(new Font("Microsoft New Tai Lue", Font.BOLD, 18));
 	this.displaybox.setBounds(81, 519, 335, 30);
 	this.contentPane.add(this.displaybox);
@@ -259,7 +259,7 @@ public class SinglyLinkedList extends JFrame
 
 
 	element1 = new JTextField();
-	element1.setHorizontalAlignment(JTextField.CENTER);
+	element1.setHorizontalAlignment(SwingConstants.CENTER);
 	element1.addKeyListener(new KeyAdapter() {
 	    @Override
 	    public void keyTyped(KeyEvent e) {

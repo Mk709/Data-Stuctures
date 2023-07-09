@@ -53,7 +53,7 @@ public class Array extends JFrame
 	m.play();
 	setUndecorated(true);
 	setType(Type.UTILITY);
-	this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+	this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 	this.setBounds(100, 100, 1000, 660);
 	(this.contentPane = new JPanel()).setBackground(new Color(0, 255, 255));
 	contentPane.setBackground(new Color(255, 255, 255));
@@ -97,7 +97,7 @@ public class Array extends JFrame
 	});
 	deleteposition.setFont(new Font("Times New Roman", Font.BOLD, 18));
 	deleteposition.setColumns(10);
-	deleteposition.setHorizontalAlignment(JTextField.CENTER);
+	deleteposition.setHorizontalAlignment(SwingConstants.CENTER);
 	deleteposition.setBounds(63, 337, 176, 36);
 	contentPane.add(deleteposition);
 
@@ -113,7 +113,7 @@ public class Array extends JFrame
 	});
 	element.setFont(new Font("Times New Roman", Font.BOLD, 18));
 	element.setColumns(10);
-	element.setHorizontalAlignment(JTextField.CENTER);
+	element.setHorizontalAlignment(SwingConstants.CENTER);
 	element.setBounds(63, 220, 176, 36);
 	contentPane.add(element);
 	final JLabel lblNewLabel = new JLabel("ENTER ARRAY LENGTH");
@@ -196,7 +196,7 @@ public class Array extends JFrame
 	this.contentPane.add(display);
 	(this.displaybox = new JTextField()).setBackground(new Color(240, 230, 140));
 	displaybox.setFont(new Font("Times New Roman", Font.BOLD, 18));
-	displaybox.setHorizontalAlignment(JTextField.CENTER);
+	displaybox.setHorizontalAlignment(SwingConstants.CENTER);
 	this.displaybox.setBounds(320, 555, 360, 36);
 	this.contentPane.add(this.displaybox);
 	this.displaybox.setColumns(10);
@@ -232,7 +232,7 @@ public class Array extends JFrame
 	    }
 	});
 	length.setFont(new Font("Times New Roman", Font.BOLD, 18));
-	length.setHorizontalAlignment(JTextField.CENTER);
+	length.setHorizontalAlignment(SwingConstants.CENTER);
 	length.setBounds(63, 109, 176, 36);
 	contentPane.add(length);
 	length.setColumns(10);
@@ -248,7 +248,7 @@ public class Array extends JFrame
 	    }
 	});
 	insertposition.setFont(new Font("Times New Roman", Font.BOLD, 18));
-	insertposition.setHorizontalAlignment(JTextField.CENTER);
+	insertposition.setHorizontalAlignment(SwingConstants.CENTER);
 	insertposition.setColumns(10);
 	insertposition.setBounds(381, 220, 176, 36);
 	contentPane.add(insertposition);

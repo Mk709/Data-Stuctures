@@ -53,7 +53,7 @@ public class DoublyLinkedList extends JFrame
 	m.play();
     	setUndecorated(true);
         this.setBackground(new Color(255, 250, 250));
-        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         this.setBounds(100, 100, 1000, 660);
         (this.contentPane = new JPanel()).setBackground(new Color(0, 255, 255));
         contentPane.setBackground(new Color(255, 255, 255));
@@ -80,7 +80,7 @@ public class DoublyLinkedList extends JFrame
         });
         element1.setFont(new Font("Times New Roman", Font.BOLD, 16));
         element1.setBounds(188, 138, 109, 26);
-        element1.setHorizontalAlignment(JTextField.CENTER);
+        element1.setHorizontalAlignment(SwingConstants.CENTER);
         contentPane.add(element1);
         final JLabel lblNewLabel_1 = new JLabel("ENTER AN ELEMENT");
         lblNewLabel_1.setForeground(Color.RED);
@@ -98,7 +98,7 @@ public class DoublyLinkedList extends JFrame
         	}
         });
         element2.setFont(new Font("Times New Roman", Font.BOLD, 16));
-        element2.setHorizontalAlignment(JTextField.CENTER);
+        element2.setHorizontalAlignment(SwingConstants.CENTER);
         this.element2.setBounds(183, 210, 114, 26);
         this.contentPane.add(this.element2);
         final JButton insertrear = new JButton("INSERT REAR");
@@ -292,7 +292,7 @@ public class DoublyLinkedList extends JFrame
         contentPane.add(exit);
         
         displaybox = new JTextField();
-        displaybox.setHorizontalAlignment(JTextField.CENTER);
+        displaybox.setHorizontalAlignment(SwingConstants.CENTER);
         displaybox.setFont(new Font("Times New Roman", Font.BOLD, 16));
         displaybox.setColumns(10);
         displaybox.setBounds(125, 511, 291, 29);
